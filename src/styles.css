@@ -16,7 +16,7 @@
   --radius-lg: 20px;
   --radius-md: 16px;
   --radius-pill: 999px;
-  --content-width: 1220px;
+  --content-width: 1440px;
   --transition: 220ms ease;
 }
 
@@ -462,15 +462,12 @@ h1 {
 }
 
 .paper-grid {
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 22rem), 1fr));
 }
 
-.project-grid {
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-}
-
+.project-grid,
 .team-grid {
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 32rem), 1fr));
 }
 
 .paper-card,
@@ -478,7 +475,7 @@ h1 {
 .project-card,
 .contact-card,
 .team-section {
-  padding: 1.35rem;
+  padding: 1.55rem;
 }
 
 .paper-card {
