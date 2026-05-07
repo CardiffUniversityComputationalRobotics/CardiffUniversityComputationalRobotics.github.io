@@ -61,13 +61,14 @@ export default function App() {
   const sharedPageProps = {
     pages: siteData.pages,
   };
+  const latestPapers = siteData.papers.slice(0, 3);
 
   const pageLookup = {
     home: (
       <HomePage
         hero={siteData.hero}
         home={siteData.home}
-        papers={siteData.featuredPapers}
+        papers={latestPapers}
       />
     ),
     papers: <PapersPage {...sharedPageProps} papers={siteData.papers} />,

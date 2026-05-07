@@ -77,8 +77,8 @@ export const siteData = {
     team: {
       eyebrow: "Team",
       title: "Principal investigators, doctoral researchers, and collaborators.",
-      description:
-        "This page is organized by role so visitors can quickly understand the structure of the group and the people involved in each research area.",
+      // description:
+      //   "This page is organized by role so visitors can quickly understand the structure of the group and the people involved in each research area.",
     },
     projects: {
       eyebrow: "Research Projects",
@@ -93,53 +93,35 @@ export const siteData = {
         "Keep the core contact routes here, along with the location of the group and any preferred channels for project or PhD enquiries.",
     },
   },
-  featuredPapers: [
+  papers: [
     {
-      title: "One-Shot View Planning and Online Optimization-based Replanning for Unknown Object Reconstruction",
-      venue: "2026 IEEE International Conference on Robotics & Automation",
+      title:
+        "Social Robot Navigation Under Kinodynamic Constraints Using Learning-Informed Sampling for Indoor Environments",
+      venue: "IEEE Robotics and Automation Letters (RA-L)",
       year: "2026",
-      authors: "J.J. Patiño, V. Romero-Cano, Y. Lai, Z. Kingston, J.D. Hernández",
+      authors:
+        "S. Silva, V. Romero-Cano, J. D. Hernández",
       summary:
-        "",
-      titleHref: "https://orca.cardiff.ac.uk/id/eprint/184709/",
-      youtubeUrl: "https://www.youtube.com/watch?v=Si_atZL73xI",
-      links: [
-        // {
-        //   label: "Paper link",
-        //   href: "https://example.com/paper-one",
-        // },
-      ],
-      tag: "To be published",
+        "Presents a social robot navigation framework for socially acceptable, kinodynamically feasible motion in dynamic indoor spaces. The approach combines world representation, multilayered path planning, and path-following control. A CNN-driven informed sampling strategy improves planner performance for online navigation. Benchmarks against state-of-the-art methods and real-world Reachy robot tests demonstrate the framework's feasibility.",
+      titleHref: "",
+      youtubeUrl: "https://youtu.be/nIs93xLLCWc",
+      links: [],
+      tag: "Accepted (To be published)",
     },
     {
       title:
-        "Exploring the Perceptions and Challenges of Social Robot Navigation: Two Case Studies in Different Socio-Technical Contexts",
-      venue: "OzCHI '24: 36th Australasian Conference on Human-Computer Interaction",
-      year: "2024",
+        "Supervisory Control via AR for Teleoperation under Communication Delays: An In-Space Assembly Use Case",
+      venue: "International Conference on Social Robotics (ICSR)",
+      year: "2026",
       authors:
-        "Steven Silva, Polina Oliinyk, Jose Patino, Dennys Paillacho, Juan D. Hernandez, Nervo Verdezoto",
+        "I. M. Stavropoulos, A. Kucukyilmaz, C. Martinez, D. J. Finnegan, J. D. Hernández",
       summary:
-        "A qualitative study of social robot navigation in real-world service settings across Ecuador and the UK, examining how robot behaviour, appearance, spatial constraints, and local context affect acceptance and user experience.",
-      titleHref: "https://doi.org/10.1145/3726986.3727028",
-      youtubeUrl: "https://www.youtube.com/watch?v=dFreXVsIJmc",
+        "Presents an AR-supported supervisory control system for in-space assembly under communication delays. Operators define goals in a 3D AR interface, while behavior trees handle execution and recovery. In a user study, the approach reduced completion time, effort, and workload compared with shared control under 0s and 2s latency.",
+      titleHref: "",
+      youtubeUrl: "https://www.youtube.com/watch?v=Z4aOs5zU8UM",
       links: [],
-      tag: "Conference",
+      tag: "Accepted (To be published)",
     },
-    {
-      title: "Online Social Robot Navigation in Indoor, Large and Crowded Environments",
-      venue: "2023 IEEE International Conference on Robotics and Automation (ICRA)",
-      year: "2023",
-      authors:
-        "Steven Silva, Nervo Verdezoto, Dennys Paillacho, Samuel Millan-Norman, Juan David Hernández",
-      summary:
-        "Presents an online social robot navigation framework for large, crowded indoor environments, combining social heatmap world modelling, multilayered sampling-based planning, and path-following control, with benchmarks and Pepper robot trials.",
-      titleHref: "https://doi.org/10.1109/ICRA48891.2023.10160603",
-      youtubeUrl: "https://www.youtube.com/watch?v=Gq149wFVj7A",
-      links: [],
-      tag: "Conference",
-    },
-  ],
-  papers: [
     {
       title: "One-Shot View Planning and Online Optimization-based Replanning for Unknown Object Reconstruction",
       venue: "2026 IEEE International Conference on Robotics & Automation",
@@ -150,12 +132,8 @@ export const siteData = {
       titleHref: "https://orca.cardiff.ac.uk/id/eprint/184709/",
       youtubeUrl: "https://www.youtube.com/watch?v=Si_atZL73xI",
       links: [
-        // {
-        //   label: "Paper link",
-        //   href: "https://example.com/paper-one",
-        // },
       ],
-      tag: "To be published",
+      tag: "Accepted (To be published)",
     },
     {
       title:
@@ -203,15 +181,15 @@ export const siteData = {
   teamSections: [
     {
       title: "Principal Investigators",
-      description:
-        "Use this section for the faculty leads or senior researchers responsible for the group's direction and supervision.",
+      // description:
+      //   "Use this section for the faculty leads or senior researchers responsible for the group's direction and supervision.",
       members: [
         {
-          name: "Professor Name Placeholder",
+          name: "Juan David Hernández Vega",
           role: "Principal Investigator",
           affiliation: "Cardiff University",
           bio:
-            "Short biography placeholder for the lead investigator, including research interests, leadership role, and key expertise.",
+            "I am a Senior Lecturer (Associate Professor) in the School of Computer Science and Informatics, where I am part of the Human-centred Computing Group and the Director of Postgraduate Research (PGR) studies. Before joining Cardiff University, I had worked in robotics for more than 10 years. During my BSc in electronic engineering (in Cali, Colombia), I worked on developing computationally efficient algorithms to model and simulate a biped robot under the supervision of Prof. Andrés Jaramillo-Botero. Then, during my MSc in robotics and automation (Madrid, Spain) and under the supervision of Prof. Antonio Barrientos, I designed and built a robotic sphere (ROSPHERE), including its software and hardware architectures. Then, I moved to Girona (Catalonia, Spain) to work at a well-known underwater robotics laboratory (CIRS), where I conducted my doctoral research in motion planning for autonomous underwater vehicles (AUVs) under the guidance of Prof. Marc Carreras. In my doctoral research, I focused on AUVs that do not have any a priori map and are required to build one online, while safely navigating through unexplored environments. After completing my PhD in 2017, I joined TNO (Helmond, Netherlands), where I worked as a research robotics engineer. At TNO I was the technical leader for automated valet parking applications. After this experience in industry, I joined Prof. Lydia E. Kavraki's laboratory at Rice University (Houston, USA) in 2018. My research at Rice was mainly focused on developing motion planning techniques to endow robots with better decision-making capabilities for human-robot collaboration scenarios. After completing my postdoctoral research, I joined Apple Inc. and its Special Projects Group (SPG) in 2019. At Apple, I was a senior engineer and I worked on developing tools for simulation of autonomous systems.",
           researchAreas: ["Planning", "Navigation", "Robot Learning"],
           links: [
             {
