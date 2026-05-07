@@ -11,11 +11,17 @@ function getInitials(name = "") {
 }
 
 export default function PersonCard({ member }) {
+  const imageAlt = member.imageAlt || `${member.name} portrait`;
+
   return (
     <article className="person-card">
       <div className="person-header">
-        <div className="person-avatar" aria-hidden="true">
-          {getInitials(member.name)}
+        <div className="person-avatar" aria-hidden={member.image ? undefined : "true"}>
+          {member.image ? (
+            <img alt={imageAlt} src={member.image} />
+          ) : (
+            getInitials(member.name)
+          )}
         </div>
 
         <div>

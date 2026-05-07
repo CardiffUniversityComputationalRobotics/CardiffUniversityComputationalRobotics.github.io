@@ -188,17 +188,39 @@ export const siteData = {
           name: "Juan David Hernández Vega",
           role: "Principal Investigator",
           affiliation: "Cardiff University",
+          image: "Juan.jpeg",
+          imageAlt: "",
           bio:
-            "I am a Senior Lecturer (Associate Professor) in the School of Computer Science and Informatics, where I am part of the Human-centred Computing Group and the Director of Postgraduate Research (PGR) studies. Before joining Cardiff University, I had worked in robotics for more than 10 years. During my BSc in electronic engineering (in Cali, Colombia), I worked on developing computationally efficient algorithms to model and simulate a biped robot under the supervision of Prof. Andrés Jaramillo-Botero. Then, during my MSc in robotics and automation (Madrid, Spain) and under the supervision of Prof. Antonio Barrientos, I designed and built a robotic sphere (ROSPHERE), including its software and hardware architectures. Then, I moved to Girona (Catalonia, Spain) to work at a well-known underwater robotics laboratory (CIRS), where I conducted my doctoral research in motion planning for autonomous underwater vehicles (AUVs) under the guidance of Prof. Marc Carreras. In my doctoral research, I focused on AUVs that do not have any a priori map and are required to build one online, while safely navigating through unexplored environments. After completing my PhD in 2017, I joined TNO (Helmond, Netherlands), where I worked as a research robotics engineer. At TNO I was the technical leader for automated valet parking applications. After this experience in industry, I joined Prof. Lydia E. Kavraki's laboratory at Rice University (Houston, USA) in 2018. My research at Rice was mainly focused on developing motion planning techniques to endow robots with better decision-making capabilities for human-robot collaboration scenarios. After completing my postdoctoral research, I joined Apple Inc. and its Special Projects Group (SPG) in 2019. At Apple, I was a senior engineer and I worked on developing tools for simulation of autonomous systems.",
+            "Senior Lecturer (Associate Professor) in the School of Computer Science and Informatics at Cardiff University, and former Director of Postgraduate Research studies. His research focuses on motion planning, autonomous navigation, robot decision-making, and human-robot collaboration. He has over 10 years of robotics experience across academia and industry, including work on underwater robots, automated valet parking, collaborative robotics, and autonomous systems simulation.",
           researchAreas: ["Planning", "Navigation", "Robot Learning"],
           links: [
             {
               label: "Profile",
-              href: "https://www.cardiff.ac.uk",
+              href: "https://profiles.cardiff.ac.uk/staff/hernandezvegaj",
             },
             {
               label: "Email",
-              href: "mailto:pi-placeholder@cardiff.ac.uk",
+              href: "HernandezVegaJ@cardiff.ac.uk",
+            },
+          ],
+        },
+        {
+          name: "Victor Romero Cano",
+          role: "Principal Investigator",
+          affiliation: "Cardiff University",
+          image: "Victor.jpeg",
+          imageAlt: "",
+          bio:
+            "I work in Robotics, Artificial Intelligence (AI) and Autonomous Systems in general! I am an academic in the School of Computer Science and Informatics at Cardiff University, within the Human-centred computing research unit. My research focuses on advancing robot perception and machine learning technologies to make autonomous systems ubiquitous and practically useful across diverse real-world environments.",
+          researchAreas: ["Planning", "Navigation", "Robot Learning"],
+          links: [
+            {
+              label: "Profile",
+              href: "https://profiles.cardiff.ac.uk/staff/romerocanov",
+            },
+            {
+              label: "Email",
+              href: " RomeroCanoV@cardiff.ac.uk",
             },
           ],
         },
@@ -213,6 +235,8 @@ export const siteData = {
           name: "PhD Student Placeholder",
           role: "PhD Researcher",
           affiliation: "Cardiff University",
+          image: "",
+          imageAlt: "",
           bio:
             "A template profile for a doctoral student, with space for a short project description and research focus.",
           researchAreas: ["Human-Robot Interaction", "Perception"],
@@ -227,6 +251,8 @@ export const siteData = {
           name: "Second Student Placeholder",
           role: "PhD Researcher",
           affiliation: "Cardiff University",
+          image: "",
+          imageAlt: "",
           bio:
             "Another placeholder card to show how multiple students will sit together in the same section.",
           researchAreas: ["Embodied AI", "Assistive Robotics"],
@@ -248,6 +274,8 @@ export const siteData = {
           name: "Collaborator Placeholder",
           role: "Research Collaborator",
           affiliation: "Partner Institution",
+          image: "",
+          imageAlt: "",
           bio:
             "Use this template for collaborators from other universities, labs, or industry partners connected to the group.",
           researchAreas: ["Field Robotics", "Multi-Robot Systems"],
