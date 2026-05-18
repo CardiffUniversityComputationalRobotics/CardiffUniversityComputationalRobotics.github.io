@@ -220,7 +220,27 @@ export const siteData = {
             },
             {
               label: "Email",
-              href: " RomeroCanoV@cardiff.ac.uk",
+              href: "RomeroCanoV@cardiff.ac.uk",
+            },
+          ],
+        },
+        {
+          name: "Walter Colombo",
+          role: "Principal Investigator",
+          affiliation: "Cardiff University",
+          image: "",
+          imageAlt: "",
+          bio:
+            "",
+          researchAreas: ["Planning", "Navigation", "Robot Learning"],
+          links: [
+            {
+              label: "Profile",
+              href: "",
+            },
+            {
+              label: "Email",
+              href: "",
             },
           ],
         },
@@ -228,30 +248,110 @@ export const siteData = {
     },
     {
       title: "PhD Students",
-      description:
-        "Doctoral researchers, visiting students, or other postgraduate team members can be listed here.",
+      // description:
+      //   "Doctoral researchers, visiting students, or other postgraduate team members can be listed here.",
       members: [
         {
-          name: "PhD Student Placeholder",
+          name: "Furkan Duman",
+          role: "PhD Researcher",
+          affiliation: "Cardiff University",
+          image: "Furkan.jpeg",
+          imageAlt: "",
+          bio:
+            "Another placeholder card to show how multiple students will sit together in the same section.",
+          researchAreas: ["Embodied AI", "Assistive Robotics"],
+          links: [
+            {
+              label: "Email",
+              href: "mailto:student-placeholder@cardiff.ac.uk",
+            },
+          ],
+        },
+        {
+          name: "Safa E. Tok",
+          role: "PhD Researcher",
+          affiliation: "Cardiff University",
+          image: "Safa.jpeg",
+          imageAlt: "",
+          bio:
+            "Another placeholder card to show how multiple students will sit together in the same section.",
+          researchAreas: ["Embodied AI", "Assistive Robotics"],
+          links: [
+            {
+              label: "Email",
+              href: "mailto:student-placeholder@cardiff.ac.uk",
+            },
+          ],
+        },
+        {
+          name: "Yuanzhi He",
           role: "PhD Researcher",
           affiliation: "Cardiff University",
           image: "",
           imageAlt: "",
           bio:
-            "A template profile for a doctoral student, with space for a short project description and research focus.",
-          researchAreas: ["Human-Robot Interaction", "Perception"],
+            "Another placeholder card to show how multiple students will sit together in the same section.",
+          researchAreas: ["Embodied AI", "Assistive Robotics"],
           links: [
             {
-              label: "Profile",
-              href: "https://www.cardiff.ac.uk",
+              label: "Email",
+              href: "mailto:student-placeholder@cardiff.ac.uk",
             },
           ],
         },
         {
-          name: "Second Student Placeholder",
+          name: "Steven Silva",
           role: "PhD Researcher",
           affiliation: "Cardiff University",
-          image: "",
+          image: "Steven.jpeg",
+          imageAlt: "",
+          bio:
+            "Mechatronics engineer from ESPOL in Ecuador, and now Teacher at Cardiff University and pursuing a PhD over social robot navigation.",
+          researchAreas: ["Path Planning","Human-Robot Interaction"],
+          links: [
+            {
+              label: "Profile",
+              href: "https://sasilva1998.github.io/",
+            },
+          ],
+        },
+        {
+          name: "Zitian Ding",
+          role: "PhD Researcher",
+          affiliation: "Cardiff University",
+          image: "Ding.jpeg",
+          imageAlt: "",
+          bio:
+            "Another placeholder card to show how multiple students will sit together in the same section.",
+          researchAreas: ["Embodied AI", "Assistive Robotics"],
+          links: [
+            {
+              label: "Email",
+              href: "mailto:student-placeholder@cardiff.ac.uk",
+            },
+          ],
+        },
+        {
+          name: "Jose Patiño",
+          role: "PhD Researcher",
+          affiliation: "Cardiff University",
+          image: "Jose.jpeg",
+          imageAlt: "",
+          bio:
+            "Another placeholder card to show how multiple students will sit together in the same section.",
+          researchAreas: ["Embodied AI", "Assistive Robotics"],
+          links: [
+            {
+              label: "Email",
+              href: "mailto:student-placeholder@cardiff.ac.uk",
+            },
+          ],
+        },
+        {
+          name: "Samuel Millan-Norman",
+          role: "PhD Researcher",
+          affiliation: "Cardiff University",
+          image: "Samuel.jpeg",
           imageAlt: "",
           bio:
             "Another placeholder card to show how multiple students will sit together in the same section.",
