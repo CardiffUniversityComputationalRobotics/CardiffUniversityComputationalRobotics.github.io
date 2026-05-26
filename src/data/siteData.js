@@ -232,7 +232,7 @@ export const siteData = {
           imageAlt: "",
           bio:
             "",
-          researchAreas: ["Planning", "Navigation", "Robot Learning"],
+          researchAreas: [],
           links: [
             {
               label: "Profile",
@@ -240,7 +240,7 @@ export const siteData = {
             },
             {
               label: "Email",
-              href: "",
+              href: "ColomboG@cardiff.ac.uk",
             },
           ],
         },
@@ -258,12 +258,12 @@ export const siteData = {
           image: "Furkan.jpeg",
           imageAlt: "",
           bio:
-            "Another placeholder card to show how multiple students will sit together in the same section.",
-          researchAreas: ["Embodied AI", "Assistive Robotics"],
+            "",
+          researchAreas: [],
           links: [
             {
               label: "Email",
-              href: "mailto:student-placeholder@cardiff.ac.uk",
+              href: "DumanF@cardiff.ac.uk",
             },
           ],
         },
@@ -274,12 +274,12 @@ export const siteData = {
           image: "Safa.jpeg",
           imageAlt: "",
           bio:
-            "Another placeholder card to show how multiple students will sit together in the same section.",
-          researchAreas: ["Embodied AI", "Assistive Robotics"],
+            "",
+          researchAreas: [],
           links: [
             {
               label: "Email",
-              href: "mailto:student-placeholder@cardiff.ac.uk",
+              href: "TokE@cardiff.ac.uk",
             },
           ],
         },
@@ -287,15 +287,15 @@ export const siteData = {
           name: "Yuanzhi He",
           role: "PhD Researcher",
           affiliation: "Cardiff University",
-          image: "",
+          image: "Yuanzhi.jpeg",
           imageAlt: "",
           bio:
-            "Another placeholder card to show how multiple students will sit together in the same section.",
-          researchAreas: ["Embodied AI", "Assistive Robotics"],
+            "He is a PhD candidate who focuses on reinforcement learning, evolutionary algorithms and generative models for sample-efficient motion planning on long-horizon robotic manipulation tasks.",
+          researchAreas: ["Robotic Manipulation", "Reinforcement Learning", "Generative AI"],
           links: [
             {
               label: "Email",
-              href: "mailto:student-placeholder@cardiff.ac.uk",
+              href: "HeY65@cardiff.ac.uk",
             },
           ],
         },
@@ -322,12 +322,12 @@ export const siteData = {
           image: "Ding.jpeg",
           imageAlt: "",
           bio:
-            "Another placeholder card to show how multiple students will sit together in the same section.",
-          researchAreas: ["Embodied AI", "Assistive Robotics"],
+            "",
+          researchAreas: [],
           links: [
             {
               label: "Email",
-              href: "mailto:student-placeholder@cardiff.ac.uk",
+              href: "DingZ10@cardiff.ac.uk",
             },
           ],
         },
@@ -338,12 +338,12 @@ export const siteData = {
           image: "Jose.jpeg",
           imageAlt: "",
           bio:
-            "Another placeholder card to show how multiple students will sit together in the same section.",
-          researchAreas: ["Embodied AI", "Assistive Robotics"],
+            "",
+          researchAreas: [],
           links: [
             {
               label: "Email",
-              href: "mailto:student-placeholder@cardiff.ac.uk",
+              href: "PatinoMinanJJ@cardiff.ac.uk",
             },
           ],
         },
@@ -354,12 +354,28 @@ export const siteData = {
           image: "Samuel.jpeg",
           imageAlt: "",
           bio:
-            "Another placeholder card to show how multiple students will sit together in the same section.",
-          researchAreas: ["Embodied AI", "Assistive Robotics"],
+            "",
+          researchAreas: [],
           links: [
             {
               label: "Email",
-              href: "mailto:student-placeholder@cardiff.ac.uk",
+              href: "NormanS2@cardiff.ac.uk",
+            },
+          ],
+        },
+        {
+          name: "Ioannis-Marios Stavropoulos",
+          role: "PhD Researcher",
+          affiliation: "Cardiff University",
+          image: "Ioannis.jpeg",
+          imageAlt: "",
+          bio:
+            "PhD candidate and Teaching Associate at Cardiff University researching robot supervisory control via Immersive Interfaces under communication constraints.",
+          researchAreas: [],
+          links: [
+            {
+              label: "Email",
+              href: "StavropoulosI@cardiff.ac.uk",
             },
           ],
         },
