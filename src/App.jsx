@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react";
 import Header from "./components/Header";
-import ContactPage from "./pages/ContactPage";
+// import ContactPage from "./pages/ContactPage";
 import HomePage from "./pages/HomePage";
 import PapersPage from "./pages/PapersPage";
-import ProjectsPage from "./pages/ProjectsPage";
+// import ProjectsPage from "./pages/ProjectsPage";
 import TeamPage from "./pages/TeamPage";
 import { siteData } from "./data/siteData";
 
@@ -73,8 +73,8 @@ export default function App() {
     ),
     papers: <PapersPage {...sharedPageProps} papers={siteData.papers} />,
     team: <TeamPage {...sharedPageProps} teamSections={siteData.teamSections} />,
-    projects: <ProjectsPage {...sharedPageProps} projects={siteData.projects} />,
-    contact: <ContactPage {...sharedPageProps} contacts={siteData.contacts} />,
+    // projects: <ProjectsPage {...sharedPageProps} projects={siteData.projects} />,
+    // contact: <ContactPage {...sharedPageProps} contacts={siteData.contacts} />,
   };
 
   return (

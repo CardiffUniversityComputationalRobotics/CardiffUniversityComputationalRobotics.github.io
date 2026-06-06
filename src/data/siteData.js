@@ -20,16 +20,16 @@ export const siteData = {
       label: "Team",
       href: "#/team",
     },
-    {
-      id: "projects",
-      label: "Research Projects",
-      href: "#/projects",
-    },
-    {
-      id: "contact",
-      label: "Contact",
-      href: "#/contact",
-    },
+    // {
+    //   id: "projects",
+    //   label: "Research Projects",
+    //   href: "#/projects",
+    // },
+    // {
+    //   id: "contact",
+    //   label: "Contact",
+    //   href: "#/contact",
+    // },
   ],
   hero: {
     eyebrow: "",
@@ -96,6 +96,22 @@ export const siteData = {
   papers: [
     {
       title:
+        "Learning-Informed Motion Planning Toward Workspace Goal Regions for Object Manipulation in Constrained Environments",
+      venue: "IEEE International Conference on Automation Science and Engineering (CASE 2026)",
+      year: "2026",
+      authors:
+        "F. Duman, J. J. Patiño, V. Romero-Cano, J. D. Hernández",
+      summary:
+        "This work treats pick-and-place manipulation as start-to-goal-region motion planning, where valid grasps and placements define multiple workspace goals. " +
+        "It introduces a transformer-guided sampling-based tree planner that uses start and goal configurations plus visual observations to improve planning in constrained shelf environments. " +
+        "Simulated and real-world Franka Emika tests show faster planning, higher success rates, and effective transfer from simulation to robot execution.",
+      titleHref: "",
+      youtubeUrl: "https://youtu.be/ZoNTUl_OB_M?si=PnV0bEyogPyTcDEy",
+      links: [],
+      tag: "Accepted (To be published)",
+    },
+    {
+      title:
         "Social Robot Navigation Under Kinodynamic Constraints Using Learning-Informed Sampling for Indoor Environments",
       venue: "IEEE Robotics and Automation Letters (RA-L)",
       year: "2026",
@@ -120,20 +136,20 @@ export const siteData = {
       titleHref: "",
       youtubeUrl: "https://www.youtube.com/watch?v=Z4aOs5zU8UM",
       links: [],
-      tag: "Accepted (To be published)",
+      tag: "Published",
     },
     {
       title: "One-Shot View Planning and Online Optimization-based Replanning for Unknown Object Reconstruction",
       venue: "2026 IEEE International Conference on Robotics & Automation",
       year: "2026",
-      authors: "J.J. Patiño, V. Romero-Cano, Y. Lai, Z. Kingston, J.D. Hernández",
+      authors: "J. J. Patiño, V. Romero-Cano, Y. Lai, Z. Kingston, J.D. Hernández",
       summary:
         "",
       titleHref: "https://orca.cardiff.ac.uk/id/eprint/184709/",
       youtubeUrl: "https://www.youtube.com/watch?v=Si_atZL73xI",
       links: [
       ],
-      tag: "Accepted (To be published)",
+      tag: "Conference",
     },
     {
       title:
@@ -258,7 +274,7 @@ export const siteData = {
           image: "Furkan.jpeg",
           imageAlt: "",
           bio:
-            "",
+            "A mechatronics engineer, currently a PhD candidate in Computer Science at Cardiff University, researching learning-based hybrid motion planning for robotic manipulators, with a particular emphasis on object manipulation planning in constrained environments.",
           researchAreas: [],
           links: [
             {
