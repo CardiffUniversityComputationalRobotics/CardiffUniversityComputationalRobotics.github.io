@@ -24,7 +24,7 @@ export const papers = [
       "S. Silva, V. Romero-Cano, J. D. Hernández",
     summary:
       "Presents a social robot navigation framework for socially acceptable, kinodynamically feasible motion in dynamic indoor spaces. The approach combines world representation, multilayered path planning, and path-following control. A CNN-driven informed sampling strategy improves planner performance for online navigation. Benchmarks against state-of-the-art methods and real-world Reachy robot tests demonstrate the framework's feasibility.",
-    titleHref: "",
+    titleHref: "https://ieeexplore.ieee.org/document/11543254",
     youtubeUrl: "https://youtu.be/nIs93xLLCWc",
     links: [],
     tag: "Accepted (To be published)",
