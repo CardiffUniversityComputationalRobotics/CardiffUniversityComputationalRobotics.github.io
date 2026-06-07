@@ -20,7 +20,7 @@ export const teamSections = [
           },
           {
             label: "Email",
-            href: "HernandezVegaJ@cardiff.ac.uk",
+            href: "mailto:HernandezVegaJ@cardiff.ac.uk",
           },
         ],
       },
@@ -40,7 +40,7 @@ export const teamSections = [
           },
           {
             label: "Email",
-            href: "RomeroCanoV@cardiff.ac.uk",
+            href: "mailto:RomeroCanoV@cardiff.ac.uk",
           },
         ],
       },
@@ -60,7 +60,7 @@ export const teamSections = [
           },
           {
             label: "Email",
-            href: "ColomboG@cardiff.ac.uk",
+            href: "mailto:ColomboG@cardiff.ac.uk",
           },
         ],
       },
@@ -83,7 +83,7 @@ export const teamSections = [
         links: [
           {
             label: "Email",
-            href: "DumanF@cardiff.ac.uk",
+            href: "mailto:DumanF@cardiff.ac.uk",
           },
         ],
       },
@@ -99,7 +99,7 @@ export const teamSections = [
         links: [
           {
             label: "Email",
-            href: "TokE@cardiff.ac.uk",
+            href: "mailto:TokE@cardiff.ac.uk",
           },
         ],
       },
@@ -115,7 +115,7 @@ export const teamSections = [
         links: [
           {
             label: "Email",
-            href: "HeY65@cardiff.ac.uk",
+            href: "mailto:HeY65@cardiff.ac.uk",
           },
         ],
       },
@@ -147,7 +147,7 @@ export const teamSections = [
         links: [
           {
             label: "Email",
-            href: "DingZ10@cardiff.ac.uk",
+            href: "mailto:DingZ10@cardiff.ac.uk",
           },
         ],
       },
@@ -163,7 +163,7 @@ export const teamSections = [
         links: [
           {
             label: "Email",
-            href: "PatinoMinanJJ@cardiff.ac.uk",
+            href: "mailto:PatinoMinanJJ@cardiff.ac.uk",
           },
         ],
       },
@@ -179,7 +179,7 @@ export const teamSections = [
         links: [
           {
             label: "Email",
-            href: "NormanS2@cardiff.ac.uk",
+            href: "mailto:NormanS2@cardiff.ac.uk",
           },
         ],
       },
@@ -195,7 +195,7 @@ export const teamSections = [
         links: [
           {
             label: "Email",
-            href: "StavropoulosI@cardiff.ac.uk",
+            href: "mailto:StavropoulosI@cardiff.ac.uk",
           },
         ],
       },

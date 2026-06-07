@@ -1,7 +1,6 @@
-const isExternalLink = (href = "") =>
+const opensInNewTab = (href = "") =>
   href.startsWith("http://") ||
-  href.startsWith("https://") ||
-  href.startsWith("mailto:");
+  href.startsWith("https://");
 
 export default function SmartLink({
   ariaCurrent,
@@ -16,14 +15,14 @@ export default function SmartLink({
     return null;
   }
 
-  const external = isExternalLink(href);
+  const newTab = opensInNewTab(href);
 
   return (
     <a
       aria-current={ariaCurrent}
       className={className}
       href={href}
-      {...(external ? { target: "_blank", rel: "noreferrer" } : {})}
+      {...(newTab ? { target: "_blank", rel: "noreferrer" } : {})}
     >
       {content}
     </a>
