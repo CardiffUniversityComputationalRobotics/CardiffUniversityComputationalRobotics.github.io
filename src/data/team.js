@@ -179,7 +179,7 @@ export const teamSections = [
         links: [
           {
             label: "Profile",
-            href: "https://samuelmillannorman123@gmail.com",
+            href: "https://samuelmillannorman.com",
           },
           {
             label: "Email",
