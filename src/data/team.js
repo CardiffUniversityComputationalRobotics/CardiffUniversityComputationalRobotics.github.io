@@ -174,9 +174,13 @@ export const teamSections = [
         image: "Samuel.jpeg",
         imageAlt: "",
         bio:
-          "",
-        researchAreas: [],
+          "PhD Student and Teaching Associate at Cardiff University exploring the intersection between immersive robot telepresence and social robot navigation",
+        researchAreas: ["Immersive Robot Telepresence", "Path Planning", "Human Robot Interaction"],
         links: [
+          {
+            label: "Profile",
+            href: "https://samuelmillannorman123@gmail.com",
+          },
           {
             label: "Email",
             href: "mailto:NormanS2@cardiff.ac.uk",
