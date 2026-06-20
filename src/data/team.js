@@ -174,7 +174,7 @@ export const teamSections = [
         image: "Samuel.jpeg",
         imageAlt: "",
         bio:
-          "PhD Student and Teaching Associate at Cardiff University exploring the intersection between immersive robot telepresence and social robot navigation",
+          "PhD candidate and Teaching Associate at Cardiff University exploring the intersection between immersive robot telepresence and social robot navigation",
         researchAreas: ["Immersive Robot Telepresence", "Path Planning", "Human Robot Interaction"],
         links: [
           {
