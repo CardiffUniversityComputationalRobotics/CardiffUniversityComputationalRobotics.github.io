@@ -1,6 +1,8 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 
+import { cloudflare } from "@cloudflare/vite-plugin";
+
 function getBasePath() {
   const repository = process.env.GITHUB_REPOSITORY;
 
@@ -21,5 +23,5 @@ function getBasePath() {
 
 export default defineConfig({
   base: getBasePath(),
-  plugins: [react()],
+  plugins: [react(), cloudflare()],
 });
